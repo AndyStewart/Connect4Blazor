@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect4.Web", "Connect4.Web\Connect4.Web.csproj", "{33D6658E-77F7-4EDE-A938-A59A8B081B79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect4", "Connect4\Connect4.csproj", "{FDA434FD-D579-4250-96BA-F5FC182C0907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect4.Tests", "Connect4.Tests\Connect4.Tests.csproj", "{2613E502-F70A-456B-B538-1F5E9820A280}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33D6658E-77F7-4EDE-A938-A59A8B081B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D6658E-77F7-4EDE-A938-A59A8B081B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D6658E-77F7-4EDE-A938-A59A8B081B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D6658E-77F7-4EDE-A938-A59A8B081B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA434FD-D579-4250-96BA-F5FC182C0907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA434FD-D579-4250-96BA-F5FC182C0907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA434FD-D579-4250-96BA-F5FC182C0907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA434FD-D579-4250-96BA-F5FC182C0907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2613E502-F70A-456B-B538-1F5E9820A280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2613E502-F70A-456B-B538-1F5E9820A280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2613E502-F70A-456B-B538-1F5E9820A280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2613E502-F70A-456B-B538-1F5E9820A280}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

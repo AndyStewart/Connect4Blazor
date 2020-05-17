@@ -1,0 +1,34 @@
+﻿@page "/counter"
+@using Connect4
+
+<div class="App">
+    <header class="App-header">
+        <h1>Connect 4</h1>
+    </header>
+    <table data-testid="playing-grid">
+        <tbody>
+        @foreach (var row in _game.Rows())
+        {
+            <tr>
+                @foreach (var cell in row)
+                {
+                    <td @onclick="click => _game.Select(cell.X)">
+                        <div class=@($"cell_{cell.Color}")></div>
+                    </td>
+                }
+            </tr>
+        }
+        </tbody>
+    </table>
+    <div className="turn-info">
+        <p>Current turn: <span className=@($"turn_{_game.CurrentTurn}")>@_game.CurrentTurn</span></p>
+        @if (_game.Winner)
+        {
+            <p>Winner: <span className=@($"turn_{_game.CurrentTurn}")>@_game.CurrentTurn</span></p>
+        }
+    </div>
+</div>
+
+@code {
+    private readonly Game _game = new Game();
+}
